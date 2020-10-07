@@ -1,0 +1,32 @@
+package all;
+
+import java.util.Scanner;
+
+public class Prime {
+
+	public static void main(String[] args) 
+	{
+		// Check whether the number is prime or not
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter a number");
+		int x=sc.nextInt();
+		int flag=0;
+		for(int a=2;a>=x;a++)
+		{
+			if(x%a==0)
+			{
+				flag=1;
+			}
+		}
+		if(flag==0)
+		{
+			System.out.println("Number is prime");
+		}
+		else
+		{
+		    System.out.println("Number is not Prime");	
+		}
+
+	}
+
+}

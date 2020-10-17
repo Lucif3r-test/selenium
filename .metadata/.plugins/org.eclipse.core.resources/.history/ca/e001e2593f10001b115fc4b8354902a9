@@ -1,9 +1,7 @@
 package mercurytours;
 
 import java.io.File;
-import java.io.IOException;
 
-import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -13,7 +11,7 @@ import org.openqa.selenium.support.ui.Select;
 
 public class Register {
 
-	public static void main(String[] args) throws InterruptedException, IOException 
+	public static void main(String[] args) throws InterruptedException 
 	{
 		// Register to mercury tours
 		WebDriver driver=new FirefoxDriver();
@@ -39,11 +37,7 @@ public class Register {
 		driver.findElement(By.name("submit")).click();
 		Thread.sleep(5000);
 		//take screenshot
-		File f1=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		File f2=new File("C:\\Git\\Selenium(N)\\SeleniumPractice\\mercury tours.png");
-		FileUtils.copyFile(f1, f2);
-		Thread.sleep(3000);
-		driver.close();
+		//File f1=((TakesScreenshot)driver).getScreenshotAs(OutputType<X>.FILE)
 
 	}
 

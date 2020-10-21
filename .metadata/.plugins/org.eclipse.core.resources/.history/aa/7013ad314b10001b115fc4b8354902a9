@@ -15,7 +15,6 @@ public class Sum {
 		//to sum
 		int z=x+y;
 		System.out.println("sum="+ z);
-		sc.close();
 
 	}
 

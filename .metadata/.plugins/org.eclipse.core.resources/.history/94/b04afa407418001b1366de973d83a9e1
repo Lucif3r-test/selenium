@@ -1,0 +1,15 @@
+package webdriverMethods;
+
+import org.openqa.selenium.WebDriver;
+
+public class maximizeBrowserWindow {
+
+	public static void main(String[] args) 
+	{
+		// maximize browser window
+		WebDriver driver=new firefoxdriver();
+		driver.get("");
+
+	}
+
+}

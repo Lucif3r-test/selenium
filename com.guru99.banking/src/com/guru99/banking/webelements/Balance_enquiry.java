@@ -7,17 +7,13 @@ import org.openqa.selenium.support.ui.Select;
 public class Balance_enquiry 
 {
 	WebDriver driver;
-	By enquiry=By.linkText("Balance Enquiry");
+	
 	By account=By.name("accountno");
 	By submit=By.name("AccSubmit");
 	By reset=By.name("res");
 	public Balance_enquiry(WebDriver x)
 	{
 		this.driver=x;
-	}
-	public void click_enquiry()
-	{
-		driver.findElement(enquiry).click();
 	}
 	public void accountno(String x)
 	{

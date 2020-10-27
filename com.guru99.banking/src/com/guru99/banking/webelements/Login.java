@@ -10,6 +10,7 @@ public class Login
 	By uid=By.name("uid");
 	By pwd=By.name("password");
 	By login=By.name("btnLogin");
+	By enquiry=By.linkText("Balance Enquiry");
 	By msg=By.linkText("Welcome To Customer's Page of Guru99 Bank");
 	public Login(WebDriver x)
 	{
@@ -26,6 +27,10 @@ public class Login
 	public void clicklogin()
 	{
 		driver.findElement(login).click();
+	}
+	public void click_enquiry()
+	{
+		driver.findElement(enquiry).click();
 	}
 
 }

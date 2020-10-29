@@ -58,7 +58,6 @@ public class NewTest {
 	  t.fillmobile("8895788442");
 	  t.fillmsg("Hi Everyone");
 	  t.upload("C:\\Users\\biswa\\Downloads\\colorblind_producions_1.jpg");
-	  Thread.sleep(6000);
 	  t.submit();
 	  File ss3=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 	  File F3=new File("C:\\Git\\Selenium(N)\\com.guru99.banking\\contact us.png");
@@ -66,7 +65,8 @@ public class NewTest {
 	  Thread.sleep(3000);
 	  Logout l1=new Logout(driver);
 	  l1.logout();
-	  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+	  driver.switchTo().alert().accept();
+	  Thread.sleep(5000);
 	  driver.close();
 	  
 	  

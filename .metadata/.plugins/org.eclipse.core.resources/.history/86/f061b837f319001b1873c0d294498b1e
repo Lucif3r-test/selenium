@@ -25,7 +25,7 @@ public class Contact
    }
    public void clickcontact()
    {
-	   driver.findElement(contact).click();;
+	   driver.findElement(contact);
    }
    public void filluid(String x)
    {
@@ -45,7 +45,6 @@ public class Contact
    }
    public void upload(String x) throws AWTException, InterruptedException
    {
-	   driver.findElement(upload).click();
 	   StringSelection s=new StringSelection(x);
 	   Toolkit.getDefaultToolkit().getSystemClipboard().setContents(s, null);
 	   Robot r=new Robot();

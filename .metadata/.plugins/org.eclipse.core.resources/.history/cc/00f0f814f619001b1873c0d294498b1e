@@ -67,6 +67,8 @@ public class NewTest {
 	  Logout l1=new Logout(driver);
 	  l1.logout();
 	  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+	  driver.switchTo().alert().accept();
+	  Thread.sleep(3000);
 	  driver.close();
 	  
 	  

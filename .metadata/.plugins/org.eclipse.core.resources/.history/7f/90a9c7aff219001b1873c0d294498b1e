@@ -25,28 +25,27 @@ public class Contact
    }
    public void clickcontact()
    {
-	   driver.findElement(contact).click();;
+	   driver.findElement(contact);
    }
    public void filluid(String x)
    {
-	   driver.findElement(name).sendKeys(x);
+	   driver.findElement(name).sendKeys("Biswajit Pradhan");
    }
    public void email(String x)
    {
-	   driver.findElement(email).sendKeys(x);
+	   driver.findElement(email).sendKeys("biswajit.nburs@gmail.com");
    }
    public void fillmobile(String x)
    {
-	   driver.findElement(mobile).sendKeys(x);
+	   driver.findElement(mobile).sendKeys("8895788442");
    }
    public void fillmsg(String x)
    {
-	   driver.findElement(msg).sendKeys(x);
+	   driver.findElement(msg).sendKeys("Hello Everyone");
    }
-   public void upload(String x) throws AWTException, InterruptedException
+   public void upload() throws AWTException, InterruptedException
    {
-	   driver.findElement(upload).click();
-	   StringSelection s=new StringSelection(x);
+	   StringSelection s=new StringSelection("C:\\Users\\biswa\\Downloads\\colorblind_producions_1.jpg");
 	   Toolkit.getDefaultToolkit().getSystemClipboard().setContents(s, null);
 	   Robot r=new Robot();
 	   r.keyPress(KeyEvent.VK_CONTROL);

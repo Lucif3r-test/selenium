@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="53709" started-at="2020-10-29T14:48:08Z" finished-at="2020-10-29T14:49:02Z">
+  <suite name="Default suite" duration-ms="77091" started-at="2020-10-30T14:03:43Z" finished-at="2020-10-30T14:05:00Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="53709" started-at="2020-10-29T14:48:08Z" finished-at="2020-10-29T14:49:02Z">
+    <test name="Default test" duration-ms="77091" started-at="2020-10-30T14:03:43Z" finished-at="2020-10-30T14:05:00Z">
       <class name="com.guru99.banking.test.NewTest">
-        <test-method status="FAIL" signature="f()[pri:0, instance:com.guru99.banking.test.NewTest@1e0f4f]" name="f" duration-ms="53670" started-at="2020-10-29T20:18:08Z" finished-at="2020-10-29T20:19:02Z">
+        <test-method status="FAIL" signature="f()[pri:0, instance:com.guru99.banking.test.NewTest@1e0f4f]" name="f" duration-ms="77051" started-at="2020-10-30T19:33:43Z" finished-at="2020-10-30T19:35:00Z">
           <exception class="org.openqa.selenium.UnhandledAlertException">
             <message>
               <![CDATA[Unexpected modal dialog (text: You Have Succesfully Logged Out!!): You Have Succesfully Logged Out!!
 Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 16:57:40'
-System info: host: 'LUCIF3R', ip: '192.168.10.243', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_261'
+System info: host: 'LUCIF3R', ip: '192.168.43.188', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_261'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=32.0.3, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 7cf57c0c-bdc7-496a-a8f9-3aa3f199daa3]]>
+Session ID: 547070fd-a955-4c5c-a5de-7d8ddac80524]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.UnhandledAlertException: Unexpected modal dialog (text: You Have Succesfully Logged Out!!): You Have Succesfully Logged Out!!
 Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 16:57:40'
-System info: host: 'LUCIF3R', ip: '192.168.10.243', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_261'
+System info: host: 'LUCIF3R', ip: '192.168.43.188', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_261'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=32.0.3, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 7cf57c0c-bdc7-496a-a8f9-3aa3f199daa3
+Session ID: 547070fd-a955-4c5c-a5de-7d8ddac80524
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)

@@ -18,11 +18,13 @@ import com.guru99.banking.webelements.Login;
 import com.guru99.banking.webelements.Logout;
 import com.guru99.banking.webelements.Ministatement;
 
-public class NewTest {
+public class NewTest 
+{
+  WebDriver driver;
   @Test
   public void f() throws InterruptedException, IOException, AWTException 
   {
-	  WebDriver driver=new FirefoxDriver();
+	  driver=new FirefoxDriver();
 	  driver.get("http://demo.guru99.com/Security/SEC_V1/index.php");
 	  driver.manage().window().maximize();
 	  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);

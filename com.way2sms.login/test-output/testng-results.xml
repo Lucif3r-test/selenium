@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="44478" started-at="2020-11-09T16:47:44Z" finished-at="2020-11-09T16:48:28Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="44478" started-at="2020-11-09T16:47:44Z" finished-at="2020-11-09T16:48:28Z">
+      <class name="com.way2sms.login.test.NewTest">
+        <test-method status="PASS" signature="f()[pri:0, instance:com.way2sms.login.test.NewTest@1e0f4f]" name="f" duration-ms="44454" started-at="2020-11-09T22:17:44Z" finished-at="2020-11-09T22:18:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- com.way2sms.login.test.NewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

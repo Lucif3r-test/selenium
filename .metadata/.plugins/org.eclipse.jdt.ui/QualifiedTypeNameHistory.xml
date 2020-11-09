@@ -2,7 +2,6 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.TakesScreenshot"/>
-<fullyQualifiedTypeName name="org.openqa.selenium.firefox.FirefoxDriver"/>
 <fullyQualifiedTypeName name="com.guru99.banking.webelements.Login"/>
 <fullyQualifiedTypeName name="com.guru99.banking.webelements.Balance_enquiry"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.Select"/>
@@ -15,8 +14,11 @@
 <fullyQualifiedTypeName name="java.awt.event.KeyEvent"/>
 <fullyQualifiedTypeName name="com.guru99.banking.webelements.Contact"/>
 <fullyQualifiedTypeName name="com.guru99.banking.webelements.Logout"/>
-<fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
-<fullyQualifiedTypeName name="java.lang.Thread"/>
-<fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
+<fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
+<fullyQualifiedTypeName name="com.way2sms.login.webelements.Login"/>
+<fullyQualifiedTypeName name="com.way2sms.login.webelements.Message"/>
+<fullyQualifiedTypeName name="java.lang.Thread"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.firefox.FirefoxDriver"/>
 </qualifiedTypeNameHistroy>

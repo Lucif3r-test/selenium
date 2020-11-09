@@ -18,5 +18,14 @@ public class Login
 	{
 		driver.findElement(uid).sendKeys(x);
 	}
+	public void pwd(String x)
+	{
+		driver.findElement(pwd).sendKeys(x);
+	}
+	public void clicklogin()
+	
+	{
+		driver.findElement(clicklogin).click();
+	}
 
 }

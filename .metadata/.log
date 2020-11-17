@@ -3222,3 +3222,75 @@ java.util.concurrent.TimeoutException: Timeout after waiting 5 seconds to acquir
 	at java.lang.ClassLoader.loadClass(Unknown Source)
 	at org.eclipse.egit.ui.internal.ConfigurationChecker$1.run(ConfigurationChecker.java:45)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-11-17 15:09:56.902
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\biswa'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 17 2020-11-17 15:10:07.054
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 2.0.4.v20170307-1435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:93)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:124)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY org.testng.eclipse 1 0 2020-11-17 16:01:58.874
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Git\Selenium(N)\com.way2sms.login\bin C:\JAVA SELENIUM\selenium-2.53.0\selenium-java-2.53.0.jar C:\JAVA SELENIUM\selenium-2.53.0\selenium-java-2.53.0-srcs.jar C:\JAVA SELENIUM\selenium-2.53.0\libs\apache-mime4j-0.6.jar C:\JAVA SELENIUM\selenium-2.53.0\libs\bsh-2.0b4.jar C:\JAVA SELENIUM\selenium-2.53.0\libs\cglib-nodep-2.1_3.jar C:\JAVA SELENIUM\selenium-2.53.0\libs\commons-codec-1.10.jar C:\JAVA SELENIUM\selenium-2.53.0\libs\commons-exec-1.3.jar C:\JAVA SELENIUM\selenium-2.53.0\libs\commons-io-2.4.jar C:\JAVA SELENIUM\selenium-2.53.0\libs\commons-logging-1.2.jar C:\JAVA SELENIUM\selenium-2.53.0\libs\gson-2.3.1.jar C:\JAVA SELENIUM\selenium-2.53.0\libs\guava-19.0.jar C:\JAVA SELENIUM\selenium-2.53.0\libs\hamcrest-core-1.3.jar C:\JAVA SELENIUM\selenium-2.53.0\libs\hamcrest-library-1.3.jar C:\JAVA SELENIUM\selenium-2.53.0\libs\httpclient-4.5.1.jar C:\JAVA SELENIUM\selenium-2.53.0\libs\httpcore-4.4.3.jar C:\JAVA SELENIUM\selenium-2.53.0\libs\httpmime-4.5.jar C:\JAVA SELENIUM\selenium-2.53.0\libs\jcommander-1.48.jar C:\JAVA SELENIUM\selenium-2.53.0\libs\jna-4.1.0.jar C:\JAVA SELENIUM\selenium-2.53.0\libs\jna-platform-4.1.0.jar C:\JAVA SELENIUM\selenium-2.53.0\libs\junit-4.12.jar C:\JAVA SELENIUM\selenium-2.53.0\libs\netty-3.5.7.Final.jar C:\JAVA SELENIUM\selenium-2.53.0\libs\phantomjsdriver-1.2.1.jar C:\JAVA SELENIUM\selenium-2.53.0\libs\testng-6.9.9.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 64828 -d C:\Git\Selenium(N)\com.way2sms.login\test-output C:\Users\biswa\AppData\Local\Temp\testng-eclipse--829507359\testng-customsuite.xml
+java -ea -classpath C:\Git\Selenium(N)\com.way2sms.login\bin:C:\JAVA SELENIUM\selenium-2.53.0\selenium-java-2.53.0.jar:C:\JAVA SELENIUM\selenium-2.53.0\selenium-java-2.53.0-srcs.jar:C:\JAVA SELENIUM\selenium-2.53.0\libs\apache-mime4j-0.6.jar:C:\JAVA SELENIUM\selenium-2.53.0\libs\bsh-2.0b4.jar:C:\JAVA SELENIUM\selenium-2.53.0\libs\cglib-nodep-2.1_3.jar:C:\JAVA SELENIUM\selenium-2.53.0\libs\commons-codec-1.10.jar:C:\JAVA SELENIUM\selenium-2.53.0\libs\commons-exec-1.3.jar:C:\JAVA SELENIUM\selenium-2.53.0\libs\commons-io-2.4.jar:C:\JAVA SELENIUM\selenium-2.53.0\libs\commons-logging-1.2.jar:C:\JAVA SELENIUM\selenium-2.53.0\libs\gson-2.3.1.jar:C:\JAVA SELENIUM\selenium-2.53.0\libs\guava-19.0.jar:C:\JAVA SELENIUM\selenium-2.53.0\libs\hamcrest-core-1.3.jar:C:\JAVA SELENIUM\selenium-2.53.0\libs\hamcrest-library-1.3.jar:C:\JAVA SELENIUM\selenium-2.53.0\libs\httpclient-4.5.1.jar:C:\JAVA SELENIUM\selenium-2.53.0\libs\httpcore-4.4.3.jar:C:\JAVA SELENIUM\selenium-2.53.0\libs\httpmime-4.5.jar:C:\JAVA SELENIUM\selenium-2.53.0\libs\jcommander-1.48.jar:C:\JAVA SELENIUM\selenium-2.53.0\libs\jna-4.1.0.jar:C:\JAVA SELENIUM\selenium-2.53.0\libs\jna-platform-4.1.0.jar:C:\JAVA SELENIUM\selenium-2.53.0\libs\junit-4.12.jar:C:\JAVA SELENIUM\selenium-2.53.0\libs\netty-3.5.7.Final.jar:C:\JAVA SELENIUM\selenium-2.53.0\libs\phantomjsdriver-1.2.1.jar:C:\JAVA SELENIUM\selenium-2.53.0\libs\testng-6.9.9.jar org.testng.remote.RemoteTestNG -serport 64828 -d C:\Git\Selenium(N)\com.way2sms.login\test-output C:\Users\biswa\AppData\Local\Temp\testng-eclipse--829507359\testng-customsuite.xml
+
+!ENTRY org.eclipse.jface.text 2 0 2020-11-17 21:31:37.525
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2020-11-17 21:31:37.549
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2020-11-17 21:34:49.774
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2020-11-17 21:34:49.915
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-11-17 21:36:08.544
+!MESSAGE Failed to download org.eclipse.recommenders:index::zip:0.0.0
+!STACK 0
+org.eclipse.aether.resolution.ArtifactResolutionException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/neon/)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:444)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:246)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:223)
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:294)
+	at org.eclipse.recommenders.models.ModelRepository.resolveInternal(ModelRepository.java:193)
+	at org.eclipse.recommenders.models.ModelRepository.resolve(ModelRepository.java:172)
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelRepository.resolve(EclipseModelRepository.java:169)
+	at org.eclipse.recommenders.internal.models.rcp.DownloadModelArchiveJob.run(DownloadModelArchiveJob.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/neon/)
+	at org.eclipse.aether.connector.basic.ArtifactTransportListener.transferFailed(ArtifactTransportListener.java:39)
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:355)
+	at org.eclipse.aether.util.concurrency.RunnableErrorForwarder$1.run(RunnableErrorForwarder.java:67)
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$DirectExecutor.execute(BasicRepositoryConnector.java:581)
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector.get(BasicRepositoryConnector.java:249)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:520)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:421)
+	... 8 more
+
+!ENTRY org.eclipse.recommenders.models.rcp 1 0 2020-11-17 21:36:08.560
+!MESSAGE org.eclipse.recommenders:index::zip:0.0.0 could not be resolved from the model repositories. Are you offline?

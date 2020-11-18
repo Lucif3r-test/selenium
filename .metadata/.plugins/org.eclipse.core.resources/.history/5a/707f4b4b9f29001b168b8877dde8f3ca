@@ -1,0 +1,25 @@
+package Business;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class GmailMethods 
+{
+   public WebDriver driver;
+   public String launch(String e,String d,String c)
+   {
+	   if(e.equals("Firefox"))
+	   {
+		   driver=new FirefoxDriver();
+	   }
+	   else if(e.equals("chrome"))
+	   {
+		   System.setProperty("webdriver.chromr.driver","C:\\JAVA SELENIUM\\chromedriver.exe" );
+		   driver=new ChromeDriver();
+	   }
+	   else if(e.equals())
+	return("Done");
+	   
+   }
+}

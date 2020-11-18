@@ -3397,3 +3397,9 @@ Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find
 
 !ENTRY org.eclipse.recommenders.models.rcp 1 0 2020-11-18 15:24:07.304
 !MESSAGE org.eclipse.recommenders:index::zip:0.0.0 could not be resolved from the model repositories. Are you offline?
+
+!ENTRY org.eclipse.jface.text 2 0 2020-11-18 18:47:35.882
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2020-11-18 18:47:35.902
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'

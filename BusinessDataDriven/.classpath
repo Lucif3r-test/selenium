@@ -25,5 +25,7 @@
 	<classpathentry kind="lib" path="C:/JAVA SELENIUM/selenium-2.53.0/libs/testng-6.9.9.jar"/>
 	<classpathentry kind="lib" path="C:/JAVA SELENIUM/selenium-2.53.0/selenium-java-2.53.0.jar"/>
 	<classpathentry kind="lib" path="C:/JAVA SELENIUM/selenium-2.53.0/selenium-java-2.53.0-srcs.jar"/>
+	<classpathentry kind="lib" path="C:/JAVA SELENIUM/jxl-2.6.12.jar"/>
+	<classpathentry kind="lib" path="C:/JAVA SELENIUM/log4j-1.2.17.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

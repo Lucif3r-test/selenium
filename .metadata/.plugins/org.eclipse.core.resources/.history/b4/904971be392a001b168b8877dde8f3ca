@@ -19,7 +19,7 @@ public class GmailDriver {
 	public static void main(String[] args) throws BiffException, IOException, RowsExceededException, WriteException, IllegalAccessException, IllegalArgumentException, InvocationTargetException 
 	{
 		//open excel file for read and write
-		File f=new File("C:\\Git\\Selenium(N)\\BusinessDataDriven\\GmailTests.xls");
+		File f=new File("C:\\Git\\Selenium(N)\\BusinessDataDriven\\GmailTests.xlsx");
 		Workbook rwb=Workbook.getWorkbook(f);
 		//Go to sheet 1 for reading
 		Sheet rsh1=rwb.getSheet(0);

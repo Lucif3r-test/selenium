@@ -1,6 +1,6 @@
-package Business;
+package all;
 
-public class GmailDriver {
+public class demo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

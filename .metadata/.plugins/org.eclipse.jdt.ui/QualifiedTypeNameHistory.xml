@@ -28,4 +28,6 @@
 <fullyQualifiedTypeName name="jxl.Workbook"/>
 <fullyQualifiedTypeName name="jxl.write.WritableSheet"/>
 <fullyQualifiedTypeName name="java.lang.reflect.Method"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
 </qualifiedTypeNameHistroy>

@@ -9,6 +9,7 @@ public class ArraySorting1ton
         { 
             arr[i]=i+1;     
         } 
+        System.out.println(arr);
     } 
       
     // Driver code 

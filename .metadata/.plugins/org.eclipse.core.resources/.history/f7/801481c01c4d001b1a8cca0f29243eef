@@ -1,6 +1,6 @@
 package all;
 
-public class ArrayElementSum {
+public class CelciusToFarenhite {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

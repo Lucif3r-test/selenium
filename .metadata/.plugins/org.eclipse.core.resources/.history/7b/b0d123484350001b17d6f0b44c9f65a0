@@ -1,6 +1,6 @@
 package all;
 
-public class InsertTreesetDescending {
+public class SumElementInArray {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

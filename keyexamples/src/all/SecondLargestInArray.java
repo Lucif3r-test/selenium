@@ -2,7 +2,7 @@ package all;
 
 import java.util.Arrays;
 
-public class demo 
+public class SecondLargestInArray 
 {
 	static void secondlargest(int a[], int n) 
 	  {
@@ -17,12 +17,10 @@ public class demo
 	public static void main(String[] args) 
 	{
 		//To find second largest number
-		  int[] a = {12, 35, 1, 10, 34, 1};
+		  int[] a = {35,6,895,302,1,6,92,181,56};
 		  int n = a.length;
 		  secondlargest(a, n);   
     }
 
-
 	
 }
- 

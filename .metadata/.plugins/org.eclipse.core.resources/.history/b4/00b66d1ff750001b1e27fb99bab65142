@@ -15,9 +15,9 @@ public class SecondLargestInArray
 		return; 
 	  }
 	public static void main(String[] args) 
+	{
 		//To find second largest number
-		{
-	  int[] a = {35,6,895,302,1,6,92,181,56};
+		  int[] a = {35,6,895,302,1,6,92,181,56};
 		  int n = a.length;
 		  secondlargest(a, n);   
     }

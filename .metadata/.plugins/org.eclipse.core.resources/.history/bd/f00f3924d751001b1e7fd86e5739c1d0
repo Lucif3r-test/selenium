@@ -15,6 +15,8 @@ public class MergeTwoList {
 		List<String> mList=new ArrayList<>(l1);
 		mList.addAll(l2);
 		System.out.println(mList);
+		
+
 	}
 
 }

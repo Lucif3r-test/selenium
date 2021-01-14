@@ -2,12 +2,14 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="flipkart.user"/>
 			<item value="Flipkart"/>
 			<item value="com.flipkart.alpha"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="com.flipkart.user.login"/>
 			<item value="com.flipkart.beta"/>
 			<item value="com.flipkart.services"/>
 			<item value="flipkart.user"/>
@@ -22,6 +24,18 @@
 		</list>
 		<list key="version">
 			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
 		</list>
 	</section>
 	<section name="MavenProjectWizardArchetypePage">

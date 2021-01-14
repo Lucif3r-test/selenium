@@ -1,0 +1,13 @@
+package all;
+
+public class DistinctCharCount 
+{
+
+	public static void main(String[] args) 
+	{
+		// Distinct char from a string and count
+		
+
+	}
+
+}
